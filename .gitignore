@@ -6,3 +6,8 @@
 /Tests/PresentationTests/bin/Debug/net9.0/CoverletSourceRootsMapping_PresentationTests
 /Presentation/obj/rider.project.model.nuget.info
 /Presentation/obj/
+/Domain/obj/
+/Data/obj/
+/Tests/DataTests/obj/
+/Tests/DomainTests/obj/
+/Tests/PresentationTests/obj/
