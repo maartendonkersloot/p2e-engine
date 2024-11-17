@@ -1,0 +1,12 @@
+@page "/counter"
+@model Presentation.Pages.CounterModel
+@{
+    ViewData["Title"] = "Counter page";
+}
+<!DOCTYPE html>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @Model.CurrentCount</p>
+
+<form method="post"> <button type="submit" class="btn btn-primary">Click me</button> </form>
