@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Data.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Data/1.0.0": {
+      "type": "project",
+      "path": "../Data/Data.csproj",
+      "msbuildProject": "../Data/Data.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "Data >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\m-don\\.nuget\\packages\\": {}
@@ -32,7 +51,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\m-don\\RiderProjects\\p2e-engine\\Data\\Data.csproj": {
+              "projectPath": "C:\\Users\\m-don\\RiderProjects\\p2e-engine\\Data\\Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
